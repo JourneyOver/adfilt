@@ -1,0 +1,44 @@
+! Title: 🏡 Personal List
+! Version: 1.0.0-Personal
+! Expires: 12 hours
+! —————————————————————————————————————————
+
+! Start Sublists
+!#include filters/Reddit.txt
+!#include filters/RickrollLinkIdentifier.txt
+!#include filters/Youtube.txt
+! End Sublists
+
+! Removes the "please disable adblock" message
+steamfriends.info##.alert-danger.alert.adblock-msg
+
+! Removed Sidebar ads and sponsors
+metagamerscore.com##.ad_wide_ss
+metagamerscore.com###aff_box
+
+! Remove patreon box
+backloggery.com###linkbox
+
+! Fixes sidebar having huge missing spaces
+truesteamachievements.com###nn_mpu1
+truesteamachievements.com###nn_mpu2
+
+! Removes the "upgrade to office 365" box
+outlook.live.com##._4EQjiwXF4KIhqby_Qqf8J
+
+! Removes the video player from the side panel
+gbatemp.net##.with_undefined.sidebar > div:nth-of-type(2)
+
+! Remove "Join VIP" and twitch stream
+theouterworlds.wiki.fextralife.com###sidebar-wrapper > .row
+theouterworlds.wiki.fextralife.com##.hidden-sm.fixme > h3.simulation-hero-heading.section-heading-light.section-heading
+
+! Removes Facebook sponsored posts
+www.facebook.com##div[id^=hyperfeed_story_id_]:has(span[data-ft="{\"tn\":\"j\"}"])
+www.facebook.com##.pagelet-group .pagelet:has(a:has-text(Sponsored))
+www.facebook.com##div[id^=hyperfeed_story_id_]:has(a[role^=button]:has(> span:has-text(/S/i):has-text(p):has-text(o):has-text(n):has-text(r):has-text(e):has-text(d):not(:has-text(0)):not(:has-text(1)):not(:has-text(2)):not(:has-text(3)):not(:has-text(4)):not(:has-text(5)):not(:has-text(6)):not(:has-text(7)):not(:has-text(8)):not(:has-text(9))))
+www.facebook.com##:xpath(//div[@role="feed"]//div[contains(@id, "substream")]//div[@role="article" and descendant::b[contains(.,"S") and contains(.,"p") and contains(.,"o") and contains(.,"n") and contains(.,"s") and contains(.,"o") and contains(.,"r") and contains(.,"e") and contains(.,"d")]])
+www.facebook.com##div[id^=hyperfeed_story_id_]:has(span[data-ft="{\"tn\":\"k\"}"]):not(:has([data-content="1"])):not(:has([data-content="2"])):not(:has([data-content="3"])):not(:has([data-content="4"])):not(:has([data-content="5"])):not(:has([data-content="6"])):not(:has([data-content="7"])):not(:has([data-content="8"])):not(:has([data-content="9"])):not(:has([data-content="w"]))
+
+! Aims to remove unavailable emotes from the Discord emote selector
+discordapp.com#?#div[class^="row-"]:-abp-has(:scope > div[class^="emojiItem-"][class*="disabled"])
