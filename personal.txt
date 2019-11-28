@@ -1,5 +1,5 @@
 ! Title: 🏡 Personal List
-! Version: 1.0.0-Personal
+! Version: 1.0.1-Personal
 ! Expires: 12 hours
 ! —————————————————————————————————————————
 
@@ -42,3 +42,6 @@ www.facebook.com##div[id^=hyperfeed_story_id_]:has(span[data-ft="{\"tn\":\"k\"}"
 
 ! Aims to remove unavailable emotes from the Discord emote selector
 discordapp.com#?#div[class^="row-"]:-abp-has(:scope > div[class^="emojiItem-"][class*="disabled"])
+
+! Removes donate banner
+web.archive.org###donate_banner
