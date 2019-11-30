@@ -1,5 +1,5 @@
 ! Title: 🏡 Personal List
-! Version: 1.0.1-Personal
+! Version: 1.0.2-Personal
 ! Expires: 12 hours
 ! —————————————————————————————————————————
 
@@ -45,3 +45,6 @@ discordapp.com#?#div[class^="row-"]:-abp-has(:scope > div[class^="emojiItem-"][c
 
 ! Removes donate banner
 web.archive.org###donate_banner
+
+! DuckDuckGo "shopping" ads
+duckduckgo.com##.ia-modules
