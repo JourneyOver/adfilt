@@ -1,5 +1,5 @@
 ! Title: 🏡 Personal List
-! Version: 1.0.3-Personal
+! Version: 1.0.4-Personal
 ! Expires: 12 hours
 ! —————————————————————————————————————————
 
@@ -51,4 +51,4 @@ duckduckgo.com##.ia-modules
 
 ! Reactiongaming "Sam adblock Notice" block
 reactiongaming.us###samNotice
-reactiongaming.us##.samAdBlockDetected .p-body-pageContent, .samAdBlockDetected .p-body-sideNav, .samAdBlockDetected .p-body-sidebar:style(opacity: 1)
+reactiongaming.us##.samAdBlockDetected .p-body-pageContent, .samAdBlockDetected .p-body-sideNav, .samAdBlockDetected .p-body-sidebar:style(opacity: 1 !important)
