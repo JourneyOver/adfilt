@@ -1,11 +1,12 @@
 ! Title: 🏡 Personal List
-! Version: 1.0.4-Personal
+! Version: 1.0.5-Personal
 ! Expires: 12 hours
 ! —————————————————————————————————————————
 
 ! Start Sublists
 !#include filters/Reddit.txt
 !#include filters/RickrollLinkIdentifier.txt
+!#include filters/TRN.txt
 !#include filters/Youtube.txt
 ! End Sublists
 
