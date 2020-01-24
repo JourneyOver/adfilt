@@ -52,3 +52,6 @@ reactiongaming.us##.samAdBlockDetected .p-body-pageContent, .samAdBlockDetected 
 
 ! IPT Banner Block
 www.iptorrents.com###body > tbody > tr > td > div:nth-of-type(1)
+
+! Block ad that appears on videos
+vaughn.live##.MvnAbvsLowerThirdWrapper
