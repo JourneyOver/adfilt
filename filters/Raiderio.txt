@@ -12,7 +12,9 @@ raider.io###raiderio_300x600_300x250_Right_2
 ! Remove the "anyclip" leftover stuff
 ||raider.io/anyclip.html$subdocument
 raider.io##.fa-times-circle.fa
+raider.io##.fa-times.fa
 raider.io##.larger.rio-vert-minilink.slds-clearfix
+raider.io##.rio-shadow--large.d-inline-block.slds-text-align--center
 
 ! Remove Patreon banners
 raider.io##.slds-medium-nowrap.slds-wrap.slds-grid.slds-text-heading--medium.slds-text-align--center.slds-p-around--small.rio-panel--patreon
