@@ -7,6 +7,7 @@
 !#include filters/Raiderio.txt
 !#include filters/Reddit.txt
 !#include filters/RickrollLinkIdentifier.txt
+!#include filters/TA.txt
 !#include filters/TRN.txt
 !#include filters/Youtube.txt
 ! End Sublists
@@ -20,10 +21,6 @@ metagamerscore.com###aff_box
 
 ! Remove patreon box
 backloggery.com###linkbox
-
-! Fixes sidebar having huge missing spaces
-truesteamachievements.com###nn_mpu1
-truesteamachievements.com###nn_mpu2
 
 ! Removes the "upgrade to office 365" box
 outlook.live.com##._4EQjiwXF4KIhqby_Qqf8J
@@ -62,3 +59,6 @@ www.raidbots.com##.Message
 
 ! Remove "Sign up for wowhead Premium!" banner
 www.wowhead.com##.premium-promo-row
+
+! Removes "Downloads for non-premium members are capped at 2MB/s" banner
+www.nexusmods.com##.container.premium-banner
