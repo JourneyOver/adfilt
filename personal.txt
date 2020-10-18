@@ -1,5 +1,5 @@
 ! Title: 🏡 Personal List
-! Version: 1.0.10-Personal
+! Version: 18October2020v1-Personal
 ! Expires: 12 hours
 ! —————————————————————————————————————————
 
@@ -35,9 +35,10 @@ theouterworlds.wiki.fextralife.com##.hidden-sm.fixme > h3.simulation-hero-headin
 ! Removes Facebook sponsored posts
 facebook.com##div[data-pagelet*="FeedUnit"]:has(span[dir="auto"]:has-text(Suggested for You))
 facebook.com##div[data-pagelet*="FeedUnit"]:has(span[class]:first-child + [role*="n"] > span:only-child > span:first-child + span:last-child)
+facebook.com##div[data-pagelet^="FeedUnit"] div[data-pagelet^="FeedUnit"]:has(span:has-text(/Sponsored/))
 
 ! Aims to remove unavailable emotes from the Discord emote selector
-discordapp.com#?#div[class^="row-"]:-abp-has(:scope > div[class^="emojiItem-"][class*="disabled"])
+discordapp.com#?#div[class^=row-]:-abp-has(> div[class^=emojiItem-][class*=disabled])
 
 ! Removes donate banner
 web.archive.org###donate_banner
