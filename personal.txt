@@ -1,5 +1,5 @@
 ! Title: 🏡 Personal List
-! Version: 15November2020v1-Personal
+! Version: 27January2021v1-Personal
 ! Expires: 12 hours
 ! —————————————————————————————————————————
 
@@ -68,6 +68,7 @@ www.wowhead.com##.premium-promo-row
 
 ! Removes "Downloads for non-premium members are capped at 2MB/s" banner
 www.nexusmods.com##.container.premium-banner
+www.nexusmods.com##.areplacer
 
 ! Removes a few annoyances on wowlazymacros
 ||twitch.tv^$3p,domain=wowlazymacros.com
