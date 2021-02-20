@@ -69,6 +69,8 @@ www.wowhead.com##.premium-promo-row
 ! Removes "Downloads for non-premium members are capped at 2MB/s" banner
 www.nexusmods.com##.container.premium-banner
 www.nexusmods.com##.areplacer
+! Sign up for premium
+www.nexusmods.com##.background-2.premium-block--upgrade.premium-block
 
 ! Removes a few annoyances on wowlazymacros
 ||twitch.tv^$3p,domain=wowlazymacros.com
