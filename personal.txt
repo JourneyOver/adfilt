@@ -1,5 +1,5 @@
 ! Title: 🏡 Personal List
-! Version: 22February2021v1-Personal
+! Version: 18April2021v1-Personal
 ! Expires: 12 hours
 ! —————————————————————————————————————————
 
@@ -78,3 +78,12 @@ www.nexusmods.com##.background-2.premium-block--upgrade.premium-block
 wowlazymacros.com##.lazy__footer
 wowlazymacros.com##.banner-box
 wowlazymacros.com##[href*="exitl.ag"],[href*="zygorguides.com"]
+
+! Removes ad containers on wago.io
+wago.io##*.wago-ad-container.md-theme-default.md-card
+
+! Removes the blank banner spot caused by ublock origin
+thunderstore.io###header-banner-desktop
+thunderstore.io###header-banner-mobile
+! Removes "We recommend using the Thunderstore Mod Manager or an alternative for installing mods" banner
+thunderstore.io##.mt-3.alert-info.alert
