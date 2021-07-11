@@ -1,5 +1,5 @@
 ! Title: 🏡 Personal List
-! Version: 18April2021v1-Personal
+! Version: 10July2021v1-Personal
 ! Expires: 12 hours
 ! —————————————————————————————————————————
 
@@ -54,9 +54,6 @@ duckduckgo.com##.ia-modules
 ! Reactiongaming "Sam adblock Notice" block
 reactiongaming.us###samNotice
 reactiongaming.us##.samAdBlockDetected .p-body-pageContent, .samAdBlockDetected .p-body-sideNav, .samAdBlockDetected .p-body-sidebar:style(opacity: 1 !important)
-
-! IPT Banner Block
-www.iptorrents.com###body > tbody > tr > td > div:nth-of-type(1)
 
 ! Block ad that appears on videos
 vaughn.live##.MvnAbvsLowerThirdWrapper
